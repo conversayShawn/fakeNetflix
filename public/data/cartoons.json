@@ -1,27 +1,27 @@
 [
   {
-    "id": 1,
+    "id": 9,
     "title": "Avatar the Last Airbender",
     "poster": "/images/avatar.png",
     "season": "3 seasons",
     "description": "In a world where people can manipulate the elements through bending, Aang, the last surviving Airbender and the current Avatar, must master all four elements to bring balance and peace to the war-torn world."
   },
   {
-    "id": 2,
+    "id": 8,
     "title": "Dragon Ball Z",
     "poster": "/images/dbz.png",
     "season": "7 seasons",
     "description": "Follow the adventures of Goku, a powerful warrior, defending Earth from formidable foes, including intergalactic invaders and androids."
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "Hey Arnold",
     "poster": "/images/hey_arnold.png",
     "season": "5 seasons",
     "description": "Join Arnold, a kind-hearted fourth-grader, and his friends as they face everyday challenges in their fictional city."
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "Rugrats",
     "poster": "/images/rugrats.png",
     "season": "9 seasons",

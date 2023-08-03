@@ -5,7 +5,7 @@ const MovieList = ({ movies }) => {
   return (
     <div className="movie-list">
       {movies.map((movie) => (
-        <Movie key={movie._id} movie={movie} /> // Assuming _id is a unique identifier for movies
+        <Movie key={movie.id} movie={movie} /> // Assuming id is a unique identifier for movies
       ))}
     </div>
   );

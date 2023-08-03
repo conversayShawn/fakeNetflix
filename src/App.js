@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import CartoonList from "./components/CartoonList";
-import MovieList from "./components/MovieList";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import CartoonList from './components/CartoonList';
+import MovieList from './components/MovieList';
 
 const App = () => {
   const [cartoons, setCartoons] = useState([]);
@@ -11,13 +11,13 @@ const App = () => {
 
   useEffect(() => {
     // Fetch cartoons data
-    axios.get("/data/cartoons.json").then((response) => {
+    axios.get('/data/cartoons.json').then((response) => {
       setCartoons(response.data);
       setLoading(false);
     });
-
+  
     // Fetch movies data
-    axios.get("/data/movies.json").then((response) => {
+    axios.get('/data/movies.json').then((response) => {
       setMovies(response.data);
       setLoading(false);
     });

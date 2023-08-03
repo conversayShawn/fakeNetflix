@@ -5,7 +5,7 @@ const CartoonList = ({ cartoons }) => {
   return (
     <div className="cartoon-list">
       {cartoons.map((cartoon) => (
-        <Cartoon key={cartoon._id} cartoon={cartoon} /> // Assuming _id is a unique identifier for cartoons
+        <Cartoon key={cartoon.id} cartoon={cartoon} /> // Assuming id is a unique identifier for cartoons
       ))}
     </div>
   );
