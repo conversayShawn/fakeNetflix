@@ -1,11 +1,15 @@
 import React from 'react';
-import Cartoon from './Cartoon'; // Assuming you have a Cartoon component
+import Cartoon from './Cartoon';
 
 const CartoonList = ({ cartoons }) => {
+  if (!cartoons || cartoons.length === 0) {
+    return <p>No cartoons available</p>;
+  }
+
   return (
     <div className="cartoon-list">
       {cartoons.map((cartoon) => (
-        <Cartoon key={cartoon.id} cartoon={cartoon} /> // Assuming id is a unique identifier for cartoons
+        <Cartoon key={cartoon.id} cartoonId={cartoon.id} />
       ))}
     </div>
   );

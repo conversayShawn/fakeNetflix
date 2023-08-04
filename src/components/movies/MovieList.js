@@ -1,11 +1,15 @@
 import React from 'react';
-import Movie from './Movie'; // Assuming you have a Movie component
+import Movie from './Movie';
 
 const MovieList = ({ movies }) => {
+  if (!movies || movies.length === 0) {
+    return <p>No movies available</p>;
+  }
+
   return (
     <div className="movie-list">
       {movies.map((movie) => (
-        <Movie key={movie.id} movie={movie} /> // Assuming id is a unique identifier for movies
+        <Movie key={movie.id} movieId={movie.id} />
       ))}
     </div>
   );
