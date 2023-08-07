@@ -2,7 +2,8 @@ import React from "react";
 import Movie from "./Movie";
 
 describe("<Movie />", () => {
-  it("renders", () => {
+  it("renders with data provided in test", () => {
+    // Mount movie component and provide fake data
     cy.mount(
       <Movie
         movie={{
@@ -14,9 +15,13 @@ describe("<Movie />", () => {
         }}
       />
       ).contains
+      // Verify it has all the necessary parts of component
+      // Verify it has alt text
+      // Verify it does not have seasons
   });
-  it("renders", () => {
+  it("renders from fixture file", () => {
     cy.fixture('movies.json').then((movies) => {
+      // Verify index returns expected data
       const movie = movies[3];
   
       cy.mount(
@@ -26,4 +31,8 @@ describe("<Movie />", () => {
       );
     });
   });
+  it('renders from fetched data', () => {
+    // Provide some generic API endpoint
+    cy.mount(<Movie />)
+  })
 });
