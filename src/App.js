@@ -19,6 +19,7 @@ const App = () => {
     // Fetch movies data
     axios.get('/data/movies.json').then((response) => {
       setMovies(response.data);
+      // setLoading(false);
     });
   }, []);
 

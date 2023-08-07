@@ -9,7 +9,7 @@ const CartoonList = ({ cartoons }) => {
   return (
     <div className="cartoon-list">
       {cartoons.map((cartoon) => (
-        <Cartoon key={cartoon.id} cartoonId={cartoon.id} />
+        <Cartoon key={cartoon.id} cartoon={cartoon} />
       ))}
     </div>
   );

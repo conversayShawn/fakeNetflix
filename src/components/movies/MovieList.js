@@ -9,7 +9,7 @@ const MovieList = ({ movies }) => {
   return (
     <div className="movie-list">
       {movies.map((movie) => (
-        <Movie key={movie.id} movieId={movie.id} />
+        <Movie key={movie.id} movie={movie} />
       ))}
     </div>
   );
