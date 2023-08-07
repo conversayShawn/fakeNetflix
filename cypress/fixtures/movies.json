@@ -17,19 +17,21 @@
     "id": 2,
     "title": "Little Mermaid",
     "poster": "/images/mermaid.png",
-    "alt": "",
+    "alt": "Ariel looks to the sky as she sits with Flounder and Sebastian on a rock in the ocean.",
     "description": "A young mermaid named Ariel dreams of living on land and falls in love with a human prince she saves from a shipwreck. Determined to be with him, she strikes a deal with a sea witch to become human, but must sacrifice her voice. As she embarks on a thrilling adventure above the waves, Ariel learns the true meaning of love and courage."
   },
   {
     "id": 3,
     "title": "Mulan",
     "poster": "/images/mulan.png",
+    "alt": "Mushu the dragon and Cricket sit atop Mulan's shoulder, who is holding her father's sword.",
     "description": "In ancient China, a young woman named Mulan disguises herself as a man to take her ailing father's place in the army. Struggling to prove herself among male soldiers, Mulan shows remarkable bravery and exceptional skills. As she battles enemies and discovers her true strength, Mulan challenges societal norms and becomes a legendary warrior."
   },
   {
     "id": 4,
     "title": "Pocahontas",
     "poster": "/images/pocahontas.png",
+    "alt": "Pocahontas, Meeko, and Flit row a canoe down a river in the forest.",
     "description": "Pocahontas, a spirited and free-spirited Native American princess, finds her world turned upside down when English settlers arrive in her homeland. Amidst cultural clashes and misunderstandings, she befriends a courageous Englishman named John Smith. As they bridge the gap between their two worlds, Pocahontas becomes a symbol of harmony and unity."
   }
 ]

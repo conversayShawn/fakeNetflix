@@ -3,7 +3,7 @@
     "id": 9,
     "title": "Avatar the Last Airbender",
     "poster": "/images/avatar.png",
-    "alt": "Avatar the Last Airbender poster",
+    "alt": "Aang the Avatar, Katara, Sokka, Toph, and Zuko looking ready to fight together",
     "season": "3 seasons",
     "description": "In a world where people can manipulate the elements through bending, Aang, the last surviving Airbender and the current Avatar, must master all four elements to bring balance and peace to the war-torn world."
   },
@@ -11,6 +11,7 @@
     "id": 8,
     "title": "Dragon Ball Z",
     "poster": "/images/dbz.png",
+    "alt": "Goku, Gohan, Vegeta, Piccolo, and Krillin looking ready to fight their enemies",
     "season": "7 seasons",
     "description": "Follow the adventures of Goku, a powerful warrior, defending Earth from formidable foes, including intergalactic invaders and androids."
   },
@@ -18,6 +19,7 @@
     "id": 7,
     "title": "Hey Arnold",
     "poster": "/images/hey_arnold.png",
+    "alt": "Arnold, Gerald, Helga, and Helga swing on a large tire swing",
     "season": "5 seasons",
     "description": "Join Arnold, a kind-hearted fourth-grader, and his friends as they face everyday challenges in their fictional city."
   },
@@ -25,6 +27,7 @@
     "id": 6,
     "title": "Rugrats",
     "poster": "/images/rugrats.png",
+    "alt": "Tommy, Chuckie, Phil, Lil, Dil, Angelica, Susie, and Spike sit on a large chair looking ready to play",
     "season": "9 seasons",
     "description": "Follow the adventures of Tommy Pickles and a group of imaginative babies as they navigate toddlerhood, going on imaginary journeys."
   },
@@ -32,6 +35,7 @@
     "id": 5,
     "title": "X Men",
     "poster": "/images/x_men.png",
+    "alt": "Wolverine, Cyclops, Jean Grey, Storm, Beast, Rogue, Gambit, and Jubilee stand together ready to fight Magneto",
     "season": "5 seasons",
     "description": "Witness the struggles of the X-Men, a team of mutant superheroes led by Professor Charles Xavier, as they fight for the peaceful coexistence of mutants and humans while facing powerful foes."
   }

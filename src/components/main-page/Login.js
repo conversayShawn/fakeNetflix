@@ -1,23 +1,13 @@
-// import React from "react";
-
-// const Login = () => {
-//   return (
-//     <form className="login-form-container">
-//       <input type="text" placeholder="username"></input>
-//       <input type="password" placeholder="password"></input>
-//     </form>
-//   );
-// };
-
-// export default Login;
-
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-const Login = ({ setAuthenticated }) => {
+const Login = ({ onLogin }) => {
   const [formData, setFormData] = useState({
     username: '',
     password: '',
   });
+
+  const navigate = useNavigate();
 
   // Simulate authentication process
   const handleLogin = (e) => {
@@ -26,7 +16,8 @@ const Login = ({ setAuthenticated }) => {
     // Perform authentication checks, e.g., username and password validation
     // For simplicity, we will just set authenticated to true if any username and password are provided
     if (formData.username && formData.password) {
-      setAuthenticated(true);
+      onLogin(formData.username);
+      navigate('/');
     }
   };
 
@@ -62,7 +53,7 @@ const Login = ({ setAuthenticated }) => {
             onChange={handleChange}
           />
         </div>
-        <button type="submit" onClick={handleLogin}>
+        <button type="submit" onClick={(e) => handleLogin(e)}>
           Log In
         </button>
       </form>
