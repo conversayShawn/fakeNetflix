@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "title": "Aladdin",
+    "poster": "/images/aladdin.png",
+    "description": "Aladdin, a kind-hearted street urchin, stumbles upon a magical lamp containing a powerful genie. With three wishes at his disposal, Aladdin seeks to win the heart of Princess Jasmine while foiling the evil plans of the wicked Jafar. Through his adventures, Aladdin learns that being true to oneself is the greatest gift of all."
+  },
+  {
+    "id": 1,
+    "title": "Lion King",
+    "poster": "/images/lion_king.png",
+    "description": "In the vast savannahs of Africa, a young lion cub named Simba must reclaim his throne as the rightful king after facing exile due to his wicked uncle's schemes. With the help of newfound friends, Simba learns about responsibility and embraces his destiny in the Circle of Life."
+  },
+  {
+    "id": 2,
+    "title": "Little Mermaid",
+    "poster": "/images/mermaid.png",
+    "description": "A young mermaid named Ariel dreams of living on land and falls in love with a human prince she saves from a shipwreck. Determined to be with him, she strikes a deal with a sea witch to become human, but must sacrifice her voice. As she embarks on a thrilling adventure above the waves, Ariel learns the true meaning of love and courage."
+  },
+  {
+    "id": 3,
+    "title": "Mulan",
+    "poster": "/images/mulan.png",
+    "description": "In ancient China, a young woman named Mulan disguises herself as a man to take her ailing father's place in the army. Struggling to prove herself among male soldiers, Mulan shows remarkable bravery and exceptional skills. As she battles enemies and discovers her true strength, Mulan challenges societal norms and becomes a legendary warrior."
+  },
+  {
+    "id": 4,
+    "title": "Pocahontas",
+    "poster": "/images/pocahontas.png",
+    "description": "Pocahontas, a spirited and free-spirited Native American princess, finds her world turned upside down when English settlers arrive in her homeland. Amidst cultural clashes and misunderstandings, she befriends a courageous Englishman named John Smith. As they bridge the gap between their two worlds, Pocahontas becomes a symbol of harmony and unity."
+  }
+]
