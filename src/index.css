@@ -135,3 +135,15 @@ p {
 .login-btn:hover {
   background-color: #0056b3;
 }
+
+.home-img {
+  width: 800px;
+  height: auto
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
