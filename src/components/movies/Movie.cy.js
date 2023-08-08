@@ -2,7 +2,7 @@ import React from "react";
 import Movie from "./Movie";
 
 describe("<Movie />", () => {
-  it("is a movie component, not a cartoon tv series", () => {
+  it.only("is a movie component, not a cartoon tv series", () => {
     // Mount movie component and provide fake data
     cy.mount(
       <Movie
@@ -25,14 +25,14 @@ describe("<Movie />", () => {
     cy.get("h2").should("not.exist"); // Should not have season
   });
 
-  it.only("has alt text", () => {
+  it("has alt text", () => {
     // Mount movie component and provide fake data
     cy.mount(
       <Movie
         movie={{
           id: 42,
           title: "Lion King",
-          img: "",
+          poster: "",
           alt: "Simba, Nala, Rafiki, Timon, and Pumbaa stand on Pride Rock overlooking the Pride Lands",
           description:
             "In the vast savannahs of Africa, a young lion cub named Simba must reclaim his throne as the rightful king after facing exile due to his wicked uncle's schemes. With the help of newfound friends, Simba learns about responsibility and embraces his destiny in the Circle of Life.",
