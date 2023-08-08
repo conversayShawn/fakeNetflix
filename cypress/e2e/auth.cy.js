@@ -7,8 +7,8 @@ describe('authentication process', () => {
     cy.get('.logout-btn').should('not.exist')
 
     // Fill out & submit the form
-    cy.get('#username').eq(0).type('username@gmail.com')
-    cy.get('#password').eq(0).type('password123')
+    cy.get('#username').type('username@gmail.com')
+    cy.get('#password').type('password123')
     cy.get('.login-btn').click()
 
     // Verify user is logged in

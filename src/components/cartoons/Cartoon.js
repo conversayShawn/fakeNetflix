@@ -10,7 +10,7 @@ const Cartoon = ({ cartoon }) => {
     <div className="cartoon">
       <img src={cartoon.poster} alt={cartoon.alt} />
       <h3>{cartoon.title}</h3>
-      <h3>{cartoon.season}</h3>
+      <h2>{cartoon.season}</h2>
       <p>{cartoon.description}</p>
     </div>
   );
