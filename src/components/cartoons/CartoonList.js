@@ -16,3 +16,4 @@ const CartoonList = ({ cartoons }) => {
 };
 
 export default CartoonList;
+
