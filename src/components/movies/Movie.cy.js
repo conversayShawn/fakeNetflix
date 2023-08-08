@@ -2,7 +2,7 @@ import React from "react";
 import Movie from "./Movie";
 
 describe("<Movie />", () => {
-  it.only("is a movie component, not a cartoon tv series", () => {
+  it("is a movie component, not a cartoon tv series", () => {
     // Mount movie component and provide fake data
     cy.mount(
       <Movie
@@ -25,7 +25,7 @@ describe("<Movie />", () => {
     cy.get("h2").should("not.exist"); // Should not have season
   });
 
-  it("has alt text", () => {
+  it.only("has alt text", () => {
     // Mount movie component and provide fake data
     cy.mount(
       <Movie
@@ -49,16 +49,16 @@ describe("<Movie />", () => {
     ); // Verify 'alt' attribute is not empty and has the expected value
   });
 
-  // it("renders from fixture file", () => {
-  //   cy.fixture("movies.json").then((movies) => {
-  //     // Verify index returns expected data
-  //     const movie = movies[3];
+  it("renders from fixture file", () => {
+    cy.fixture("movies.json").then((movies) => {
+      // Verify index returns expected data
+      const movie = movies[3];
 
-  //     cy.mount(<Movie movie={movie} />);
-  //   });
-  // });
-  // it("renders from fetched data", () => {
-  //   // Provide some generic API endpoint
-  //   cy.mount(<Movie />);
-  // });
+      cy.mount(<Movie movie={movie} />);
+    });
+  });
+  it("renders from fetched data", () => {
+    // Provide some generic API endpoint
+    cy.mount(<Movie />);
+  });
 });

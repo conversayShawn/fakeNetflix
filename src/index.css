@@ -147,3 +147,8 @@ p {
   align-items: center;
   justify-content: center;
 }
+
+/* To see all your components */
+/* * {
+  outline: black solid 1px;
+} */
