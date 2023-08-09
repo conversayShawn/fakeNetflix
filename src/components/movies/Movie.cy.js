@@ -25,7 +25,7 @@ describe("<Movie />", () => {
     cy.get("h2").should("not.exist"); // Should not have season
   });
 
-  it.only("has alt text", () => {
+  it("has alt text", () => {
     // Mount movie component and provide fake data
     cy.mount(
       <Movie
@@ -46,7 +46,7 @@ describe("<Movie />", () => {
     .and(
       "eq",
       "Simba, Nala, Rafiki, Timon, and Pumbaa stand on Pride Rock overlooking the Pride Lands"
-    ); // Verify 'alt' attribute is not empty and has the expected value
+    ); 
   });
 
   it("renders from fixture file", () => {
@@ -58,7 +58,6 @@ describe("<Movie />", () => {
     });
   });
   it("renders from fetched data", () => {
-    // Provide some generic API endpoint
     cy.mount(<Movie />);
   });
 });
